@@ -1,0 +1,34 @@
+body {
+    background-color: #16b1a9;
+}
+* {
+    box-sizing : border-box;
+}
+h1,p {
+    text-align:center;
+}
+.container1 {
+    margin:auto;
+    width:50%;
+    padding:16px;
+    background-color: white;
+    box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.7);
+}
+input[type='text'],
+input[type='tel'],
+input[type='number'] {
+    width:100%;
+    display:inline-block;
+    background: whitesmoke;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+}
+input[type='tel']:focus,
+input[type='text']:focus,
+input[type='number']:focus{
+ background-color:#ddd;
+ outline:none;
+}
+.btn_donate {
+ background-color: #ddd;
+}
